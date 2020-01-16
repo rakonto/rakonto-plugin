@@ -1,0 +1,30 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.rakonto-options input[type="text"], .rakonto-options input[type="password"] {
+    width: 410px;
+}
+
+#rakonto_post_key_box .from-address span.val {
+    width: 35%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: top;
+}
+
+p.form-invalid {
+    color: red;
+    display: none;
+}
+
+p.form-invalid.visible {
+    display: block !important;
+}
+
+#rakonto_post_key_box {
+    display: none;
+}
